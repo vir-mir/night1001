@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
+import traceback
 from apps.ginny.queue_coroutine import workers
 from apps.ginny.query_parser import Parser, ParserExceptionNotCommand
 from tornado import websocket

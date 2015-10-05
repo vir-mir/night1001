@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 DATABASES = {
     'default': {
@@ -18,7 +17,7 @@ MIDDLEWARE_CLASSES_DEBUG = (
 )
 
 INSTALLED_APPS_DEBUG = (
-    'debug_toolbar'
+    'debug_toolbar',
 )
 
 # Компоненты дебага

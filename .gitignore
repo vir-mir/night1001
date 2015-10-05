@@ -1,6 +1,8 @@
 # Byte-compiled / optimized / DLL files
 .idea
 night1001/local_settings.py
+templates/static_src/node_modules
+templates/static_src/.sass-cache
 MANIFEST
 __pycache__/
 *.py[cod]

@@ -56,9 +56,7 @@ class SaveText(Handler):
         super(SaveText, self).__init__(name)
 
     def prepare(self):
-        if self.text:
-            return True
-        return False
+        return True
 
     def get_data(self):
         self.return_data['text'] = self.text
@@ -131,7 +129,7 @@ class SiteHead(SitesHandler):
         self.return_data['urls'] = {}
 
     def post_url(self, url, obj):
-        self.return_data['urls'][url] = obj.headers
+        self.return_data['urls'][url] = dict(obj.headers)
 
     def get_data(self):
         return super(SiteHead, self).get_data()

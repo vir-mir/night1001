@@ -62,11 +62,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'socket_server',
 )
 
 PROJECT_APPS = (
     'apps.ginny',
+    'apps.user',
 )
 
 INSTALLED_APPS += PROJECT_APPS

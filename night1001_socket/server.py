@@ -11,7 +11,7 @@ class Application(web.Application):
         handlers = (
             (r'/ginny_io', GinnyHandler),
         )
-        web.Application.__init__(self, handlers)
+        web.Application.__init__(self, handlers, debug=setting.DEBUG)
 
 
 def main():

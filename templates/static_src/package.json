@@ -1,0 +1,21 @@
+{
+  "name": "night1001",
+  "version": "1.0.1",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-jshint": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-notify": "*",
+    "gulp-livereload": "*",
+    "del": "*",
+    "gulp-react": "*",
+    "es6-promise": "*",
+    "gulp-sass": "*",
+    "gulp-cache": "*"
+  }
+}
