@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from tornado import web, ioloop
-from night1001_socket.socket_setting import setting
-from night1001_socket.handler.ginny import GinnyHandler
+from socket_setting import setting
+from handler.ginny import GinnyHandler
 
 
 class Application(web.Application):
