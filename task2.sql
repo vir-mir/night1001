@@ -1,3 +1,5 @@
+-- Это postgresql 
+
 INSERT INTO table4 (internal_number, month, name_surname, position, salary_month, tax)
 SELECT 
 	DISTINCT ON (table3.internal_number, table2.month) table3.internal_number, table2.month,
