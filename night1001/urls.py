@@ -8,5 +8,4 @@ urlpatterns = [
     url(r'^$', 'apps.home.views.home'),
     url(r'^user/', include(user_urls)),
     url(r'^ginny/', include(ginny_urls)),
-    url(r'^ginny/', include(ginny_urls)),
 ]
