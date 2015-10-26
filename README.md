@@ -14,3 +14,8 @@ python manage.py syncdb
 python manage.py runserver
 python night1001_socket/server.py
 ```
+
+
+
+
+
